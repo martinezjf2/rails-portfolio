@@ -42,6 +42,20 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 gem "bootstrap"
+gem 'bcrypt', '~> 3.1.7'
+gem 'psych', '< 4'
+gem "nokogiri", "~> 1.14"
+
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv', '~> 2.7', require: 'dotenv/load'
+# gem 'will_paginate' 
+gem 'kaminari'
+
+# Amazon S3
+gem 'aws-sdk-s3'
+
+gem 'i18n'
+gem 'webpacker', '~> 4.0'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
