@@ -50,7 +50,7 @@
 
 //  Footer 
 
-footer {
+    footer {
     position: absolute;
     // bottom: 0;
     // left: 0;
@@ -86,14 +86,10 @@ footer {
     text-decoration: none;
     display: block;
     font-size: 19px;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 0.08rem;
     padding-bottom: 10px;
     // width: 50%;
     margin: 0 auto;
   }
   
-  .footer-section a:hover {
-    // color: green;
-    // background-color:rgb(13, 110, 253)
-  }
